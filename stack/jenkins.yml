@@ -59,7 +59,7 @@ Resources:
             
             # retrieve ansible code
             yum -y install git
-            git clone https://github.com/diranetafen/cursus-devops.git
+            git clone https://github.com/chiracky1/cursus-devops.git
             cd cursus-devops/ansible
             ansible-galaxy install -r roles/requirements.yml
             ansible-playbook install_docker.yml
